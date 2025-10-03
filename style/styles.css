@@ -500,3 +500,36 @@ margin: 30px 0; /* Вертикальные отступы */
  padding: 20px;
  }
 }
+@media (max-width: 480px) {
+ .shapka h1 {
+ font-size: 20px;
+ }
+ .navigatsiya-spisok {
+ gap: 5px;
+ }
+ main.soderzhimoe {
+ padding: 10px;
+ }
+ .profil-foto {
+ width: 150px;
+ height: 200px;
+ }
+ .profil-zagolovok {
+ font-size: 24px;
+ }
+ .profil-imya {
+ font-size: 18px;
+ }
+ .sektsiya-zagolovok {
+ font-size: 22px;
+ }
+ .products-grid {
+ grid-template-columns: 1fr;
+ }
+ .news-container {
+ gap: 15px;
+ }
+ .contact-info {
+ padding: 15px;
+ }
+}
