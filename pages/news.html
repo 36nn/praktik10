@@ -7,33 +7,49 @@
 <link rel="stylesheet" href="../style/styles.css">
 </head>
 <body>
-  <div id="header">Хэдер</div>
-  <div id="menu">
-    <ul>
-      <li><a href="../index.html">Главная</a></li>
-      <li><a href="news.html">Новости</a></li>
-      <li><a href="practices.html">Практики</a></li>
-      <li><a href="goods.html">Товары</a></li>
-      <li><a href="contacts.html">Контакты</a></li>
-    </ul>
+  <div class="page-container">
+  <header class="header">
+  <h1>Хэдер</h1>
+  </header>
+  <nav class="nav">
+  <ul class="nav-list">
+  <li class="nav-item"><a class="nav-link"
+  href="../index.html">Главная</a></li>
+  <li class="nav-item"><a class="nav-link"
+  href="news.html">Новости</a></li>
+  <li class="nav-item"><a class="nav-link"
+  href="practices.html">Практики</a></li>
+  <li class="nav-item"><a class="nav-link"
+  href="goods.html">Товары</a></li>
+  <li class="nav-item"><a class="nav-link"
+  href="contacts.html">Контакты</a></li>
+  </ul>
+  </nav>
+  <main class="content">
+  <section class="news-section">
+  <h1>Новости</h1>
+  <div class="news-container">
+  <article class="news-card">
+  <h2 class="news-title">Заголовок новости 1</h2>
+  <p class="news-meta">Дата: 2023-10-01, Автор: Иванов Иван</p>
+  <p class="news-text">Текст новости 1: Это первая новость. Здесь описывается какое-то интересное событие или информация.</p>
+  </article>
+  <article class="news-card">
+  <h2 class="news-title">Заголовок новости 2</h2>
+  <p class="news-meta">Дата: 2023-10-02, Автор: Петров Петр</p>
+  <p class="news-text">Текст новости 2: Вторая новость содержит дополнительные детали о проекте или событии.</p>
+  </article>
+  <article class="news-card">
+  <h2 class="news-title">Заголовок новости 3</h2>
+  <p class="news-meta">Дата: 2023-10-03, Автор: Сидоров Сергей</p>
+  <p class="news-text">Текст новости 3: Третья новость завершает серию новостей с итогами или анонсами.</p>
+  </article>
   </div>
-  <div id="content">
-    <div class="news-item">
-      <h2>Заголовок новости 1</h2>
-      <p>Дата: 2023-10-01, Автор: Иванов Иван</p>
-      <p>Текст новости 1: Это первая новость. Здесь описывается какое-то интересное событие или информация.</p>
-    </div>
-    <div class="news-item">
-      <h2>Заголовок новости 2</h2>
-      <p>Дата: 2023-10-02, Автор: Петров Петр</p>
-      <p>Текст новости 2: Вторая новость содержит дополнительные детали о проекте или событии.</p>
-    </div>
-    <div class="news-item">
-      <h2>Заголовок новости 3</h2>
-      <p>Дата: 2023-10-03, Автор: Сидоров Сергей</p>
-      <p>Текст новости 3: Третья новость завершает серию новостей с итогами или анонсами.</p>
-    </div>
+  </section>
+  </main>
+  <footer class="footer">
+  <p>Футер</p>
+  </footer>
   </div>
-  <div id="footer">Футер</div>
 </body>
 </html>
